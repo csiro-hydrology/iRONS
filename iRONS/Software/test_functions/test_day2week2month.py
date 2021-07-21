@@ -16,7 +16,7 @@ if __name__ == '__main__':
     from day2week2month import day2week
 else:
     ### Function to test ###
-    from irons.Software.day2week2month import day2week
+    from iRONS.Software.day2week2month import day2week
     
 # Test inputs
 dates = pd.date_range(start = '2020-06-09', end = '2020-07-09', freq = 'D')

@@ -15,7 +15,7 @@ if __name__ == '__main__':
     from res_sys_sim import res_sys_sim
 else:
     ### Function to test ###
-    from irons.Software.res_sys_sim import res_sys_sim
+    from iRONS.Software.res_sys_sim import res_sys_sim
     
 ### Inputs ###
 N = 10

@@ -14,7 +14,7 @@ if __name__ == '__main__':
     from cum2inst import cum2inst
 else:
     ### Function to test ###
-    from irons.Software.cum2inst import cum2inst
+    from iRONS.Software.cum2inst import cum2inst
 
 # Test inputs
 cum_rain = np.array([[10], [20], [20]]) # Cumulative rain

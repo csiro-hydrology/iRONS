@@ -15,7 +15,7 @@ if __name__ == '__main__':
     from HBV_sim import HBV_sim
 else:
     ### Function to test ###
-    from irons.Software.HBV_sim import HBV_sim
+    from iRONS.Software.HBV_sim import HBV_sim
     
 # Test inptus
 P = np.array([10, 20, 15])

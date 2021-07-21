@@ -14,7 +14,7 @@ import numpy as np
 #import sys
 # Tools
 #sys.path.append('../../Toolbox')
-from irons.Software.read_data import read_netcdf_data
+from iRONS.Software.read_data import read_netcdf_data
 
 def linear_scaling(folder_path,file_name_end,
                    dates_fore,data_fore,

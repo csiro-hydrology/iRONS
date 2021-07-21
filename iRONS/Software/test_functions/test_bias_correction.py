@@ -15,9 +15,9 @@ if __name__ == '__main__':
     from .bias_correction import linear_scaling
     
 else:
-    from irons.Software.read_data import read_csv_data
+    from iRONS.Software.read_data import read_csv_data
     ### Function to test ###
-    from irons.Software.bias_correction import linear_scaling
+    from iRONS.Software.bias_correction import linear_scaling
 
 ### Observed data ###
 # File path

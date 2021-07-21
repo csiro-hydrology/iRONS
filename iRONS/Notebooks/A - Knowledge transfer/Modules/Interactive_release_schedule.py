@@ -292,7 +292,7 @@ def Interactive_Pareto_front(simtime,I,E,d,S0,Smax,ms,env_min, demand_plot,solut
     fig_pf = plt.Figure(marks = [pareto_front],title = 'Interactive Pareto front', axes=[x_ax_pf, y_ax_pf],
                         layout={'width': '500px', 'height': '500px'}, animation_duration=1000)
     
-    if pareto_front.selected == []:
+    if pareto_front.selected is None or pareto_front.selected == []:
         pareto_front.selected = [0]
     
     pareto_front.observe(solution_selected,'selected')

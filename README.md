@@ -76,9 +76,15 @@ conda remove --all --prefix "./irons_env"
 ```
 🚨 If you use JupyterLab instead of Jupyter Notebook you will need to install the following extensions:
 ```
-jupyter labextension install @jupyter-widgets/jupyterlab-manager # install the plotly extension
+jupyter labextension install @jupyter-widgets/jupyterlab-manager # install the Jupyter widgets extension
 jupyter labextension install bqplot@0.4.6 # install the bqplot extension
-jupyter labextension install @jupyterlab/plotly-extension # install the Jupyter widgets extension
+jupyter labextension install @jupyterlab/plotly-extension # install the plotly extension
+```
+
+Note that plotly-extension seems deprecated (not maintained by plotly). for Jupyterlab 3.0+ use instead:
+
+```sh
+jupyter labextension install jupyterlab-plotly
 ```
 ## Testing
 
