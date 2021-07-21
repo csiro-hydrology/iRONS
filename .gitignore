@@ -152,4 +152,4 @@ aznbsetup.sh
 SAFEpython*/
 
 
-.ipynb_checkpoints/
+*.ipynb_checkpoints/
